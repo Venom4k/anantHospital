@@ -3,7 +3,7 @@
 }
 
 .Containerbox{
-    height: 50vh;
+    height: 90vh;
     width: 100%;
     background-color: #05AFEF;
     display: flex;
@@ -20,5 +20,46 @@
 }
 .box{
     display: flex;
+    flex-wrap: wrap;
+    height: auto;
     
+}
+.imgset{
+    height:10rem;
+    width: auto;
+    position: relative;
+    left: 80px;
+    bottom: -50px;
+    
+
+    
+
+}
+.left-side{
+    width: 50%;
+    height: inherit;
+    background-color: green;
+   
+    
+}
+.right-side{
+box-sizing: border-box;
+height: inherit;
+    width: 50%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    height: 10vh;
+    width: 20vw;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center ;
+    
+
 }
