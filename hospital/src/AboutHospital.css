@@ -1,0 +1,32 @@
+.box{
+    /* border:6px solid black; */
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+height: auto;
+border:5px solid black
+}
+.h-1,.para{
+    text-align: center;
+   /* padding: 45px 0px;   */
+   /* border: 4px solid black; */
+   font-family: 'Inter', sans-serif;     
+}
+.h-1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3rem;
+    margin: 20px 0px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom:4rem;
+    
+}
+.para{
+width:80vw;
+font-weight: 700;
+padding: 0px 40px;
+font-family: 'Inter', sans-serif;
+font-size: 1rem;
+color:#595252;
+}
