@@ -1,8 +1,110 @@
-.bigbox{
+.cont{
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #151515;
     width: 100%;
     height: 100vh;
+  padding-top: 10px;
+    background: #262626;
+ }
+
+ .Heading{
+    color: rgb(204, 204, 204);
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 0px;
+    font-family: Inter,sans-serif;
+    
+ }
+ .testimonials{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap: 20px;
+    /* margin: 200px auto 100px; */
+
+ }
+ .testimonials .card{
+    position:relative;
+    width: 350px;
+    margin: 30px auto;
+    background: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 13px;
+ }
+.testimonials .card .layer{
+    position: absolute;
+    top: 0;
+  left: 99.5%;
+  width: 100%;
+ 
+    height: 100%;
+    background: hsla(217, 100%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+    z-index: 1;
+    transition: 0.5s;
 }
+ .testimonials .card .content{
+    z-index:2 ;
+    position: relative;
+
+ }
+ .testimonials .card:hover .layer {
+    
+    left: 0;
+  
+ }
+ .card:hover{
+    transform: translateY(-20px);
+ }
+ .testimonials .card .content p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+ }
+ .testimonials .card:hover .content p{
+    color: #333;
+    font-weight: bolder;
+ }
+ .testimonials .card:hover .content h1{
+    color: #333;
+    font-weight: bolder;
+
+ }
+ .testimonials .card .content .image{
+width: 100px;
+height: 100px;
+margin: 0 auto;
+border-radius: 50%;
+overflow: hidden;
+border: 4px solid #fff;
+box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+ }
+
+ .testimonials .card .content .details h2{
+font-size: 18px;
+color: #fff;
+
+ }
+ .testimonials .card:hover .content .details h2{
+    color: #333;
+    font-weight: bolder;
+ }
+ .testimonials .card .content h1{
+    font-size: 20px;
+color: #fff;
+font-family: 'Inter', sans-serif;
+font-weight: bolder;
+ }
+ 

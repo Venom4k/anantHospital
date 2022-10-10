@@ -1,61 +1,64 @@
 import "./TestimonialSection.css"
-
-
-function TestimonialSection() {
+function Testimonialsection(){
     return (
         <>
-        <div className="bigbox">
-   <section>
- <div className="testimonial">
- <div className="card">
- <div className="layer"></div>
- <div className="content">
-<p>
- lorem ipsum dolor amet consectetur adipiscing elit,Name isusto ea tenetur queas facere w=minima quos.seaep</p>
- <div className="image">
- <img width="100px" src={require("./images/image1.png")}/>
- </div>
- <div className="details">
- <h2>Someone Famous</h2>
- </div>
- </div>
- </div>
- </div>
+        <div className="cont">
+        <h1 className="Heading">Testimonial</h1>
+<div className="testimonials">
+<div className="card">
+<div className="layer"></div>
+<div className="content">
+<h1>"I m very Impressed"</h1>
+<p>Anant institute of medical sciences best hospital for neurology and neurosugeon</p>
+<div className="image">
+<img width="100px" src={require("./images/girl.png")}/>
 
- <div className="testimonial">
- <div className="card">
- <div className="layer"></div>
- <div className="content">
-<p>
- lorem ipsum dolor amet consectetur adipiscing elit,Name isusto ea tenetur queas facere w=minima quos.seaep</p>
- <div className="image">
- <img width="100px" src={require("./images/image1.png")}/>
- </div>
- <div className="details">
- <h2>Someone Famous</h2>
- </div>
- </div>
- </div>
- </div>
+</div>
+<div className="details">
+<h2>Mr.Pragesh Sharma,MD
+</h2>
+</div>
+</div>
+</div>
 
- <div className="testimonial">
- <div className="card">
- <div className="layer"></div>
- <div className="content">
-<p>
- lorem ipsum dolor amet consectetur adipiscing elit,Name isusto ea tenetur queas facere w=minima quos.seaep</p>
- <div className="image">
- <img width="100px" src={require("./images/image1.png")}/>
- </div>
- <div className="details">
- <h2>Someone Famous</h2>
- </div>
- </div>
- </div>
- </div>
- </section>
- </div>
+<div className="card">
+<div className="layer"></div>
+<div className="content">
+<h1>"I m very Impressed"</h1>
+<p>Anant institute of medical sciences best hospital for neurology and neurosugeon</p>
+<div className="image">
+<img width="100px" src={require("./images/girl.png")}/>
+
+</div>
+<div className="details">
+<h2>Mr.Pragesh Sharma,MD
+
+</h2>
+</div>
+</div>
+</div>
+
+<div className="card">
+<div className="layer"></div>
+<div className="content">
+<h1>"I m very Impressed"</h1>
+
+<p>Anant institute of medical sciences best hospital for neurology and neurosugeon</p>
+<div className="image">
+<img width="100px" src={require("./images/girl.png")}/>
+
+</div>
+<div className="details">
+<h2>Mr.Pragesh Sharma,MD
+
+</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
         </>
-    );
+    )
 }
-export { TestimonialSection };
+
+export {Testimonialsection};

@@ -1,13 +1,13 @@
 import './App.css';
 import {HeaderPage} from "./HeaderPage";
- import {  TestimonialSection} from "./TestimonialSection"
+ import {  Testimonialsection} from "./Testimonialsection"
  
  
 
 function App() {
   return (
     <>
- <TestimonialSection/>
+ <Testimonialsection/>
     </>
   );
 }
