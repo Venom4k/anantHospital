@@ -68,7 +68,8 @@ margin-bottom: 28px;
   color:white;
   background:#05AFEF;
   box-shadow: 0 0 10px #05AFEF,0 0 40px #05AFEF,0 0 80px #05AFEF;
-  /* transition-delay: 1s; */
+  transition-delay: 2000s;
+ 
 }
 /* .btn span{
   position:absolute;

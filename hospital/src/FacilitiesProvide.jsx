@@ -1,25 +1,39 @@
 import "./FacilitiesProvide.css"
+function FacilitiesProvide() {
+    return (
+        <>
+            <div className='contains'>
+                <h1 className='heading'>What Facilities we Provide ?</h1>
+                <div className='boxx'>
 
-function FacilitiesProvide(){
-    return(<>
-        <div className="Containerbox">
-        <h1 className="heading">What Facilities We Provide ? </h1>
-        <div className="box">
-        <div className="left-side">
-        <img src={require("./images/Doctor.png")} className="imgset img-fluid"/>
-        </div>
-        <div className="right-side">
-        <div className="item">Item-1</div>
-        <div className="item">Item-2</div>
-        <div className="item">Item-3</div>
-        </div>
+                    <div className='leftt'> <img className="girlDoctor" src={require('./images/Doctor.png')}/> </div>
+                    <div className='rightt'>
 
- 
-        </div>
-         
-        </div>
-        
-        
-        </>);
+                        <div className='fbox'>
+
+                            <div className='s-left'><img className="responsiveimg" src={require(`./images/Fimage/ambulance.png`)} /></div>
+                            <div className='s-right'>AIMS PROVIDE 24/7 AMBULANCE FACILITIES AROUND JABALPUR SANSKARDHANI</div>
+
+                        </div>
+
+                        <div className='fbox'>
+
+                          <div className='s-left'><img className="responsiveimg" src={require("./images/Fimage/accident.png")}/></div>
+                            <div className='s-right'>AIMS HAVE EXPERT & DEDICATED DOCTORS WITH BEST ACCIDENTAL TRAUMA UNIT</div>
+
+                            </div>
+
+                        <div className='fbox'> 
+
+                           <div className='s-left '><img className="responsiveimg" src={require("./images/Fimage/medical.png")} /></div>
+                            <div className='s-right'>AIMS HAVE BEST SUPER SPECIALIST EXPERT & DEDICATED DOCTORS TEAM.</div>
+
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </>
+    );
 }
-export {FacilitiesProvide};
+export { FacilitiesProvide };

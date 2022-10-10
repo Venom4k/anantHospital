@@ -1,14 +1,13 @@
 import './App.css';
-// import {HeaderPage} from "./HeaderPage";
-import  {FacilitiesProvide} from "./FacilitiesProvide";
+import {HeaderPage} from "./HeaderPage";
+ import {  TestimonialSection} from "./TestimonialSection"
  
  
 
 function App() {
   return (
     <>
- <FacilitiesProvide/>
-  
+ <TestimonialSection/>
     </>
   );
 }
