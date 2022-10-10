@@ -1,27 +1,60 @@
-import "./Testimonial.css"
+import "./TestimonialSection.css"
 
 
 function TestimonialSection() {
     return (
         <>
-            <section>
-                <div className="testimonial">
-                    <div className="card">
-                        <div className="layer">
-                            <div className="content">
-                                <p>lorem ipsum dolor sit amet consetetur adipisicing elit .Nam iusto ea tenetur quas facere monima obcaecati mollitia sed ipsum quod,eius repellat nihil</p>
-                                <div className="image">
-                                    <img src={require("./images/image1.png")} width="100px"/>
-                                </div>
-                                <div className="details">
-                                    <h2>Someone Famous</h2> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <div className="bigbox">
+   <section>
+ <div className="testimonial">
+ <div className="card">
+ <div className="layer"></div>
+ <div className="content">
+<p>
+ lorem ipsum dolor amet consectetur adipiscing elit,Name isusto ea tenetur queas facere w=minima quos.seaep</p>
+ <div className="image">
+ <img width="100px" src={require("./images/image1.png")}/>
+ </div>
+ <div className="details">
+ <h2>Someone Famous</h2>
+ </div>
+ </div>
+ </div>
+ </div>
 
+ <div className="testimonial">
+ <div className="card">
+ <div className="layer"></div>
+ <div className="content">
+<p>
+ lorem ipsum dolor amet consectetur adipiscing elit,Name isusto ea tenetur queas facere w=minima quos.seaep</p>
+ <div className="image">
+ <img width="100px" src={require("./images/image1.png")}/>
+ </div>
+ <div className="details">
+ <h2>Someone Famous</h2>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ <div className="testimonial">
+ <div className="card">
+ <div className="layer"></div>
+ <div className="content">
+<p>
+ lorem ipsum dolor amet consectetur adipiscing elit,Name isusto ea tenetur queas facere w=minima quos.seaep</p>
+ <div className="image">
+ <img width="100px" src={require("./images/image1.png")}/>
+ </div>
+ <div className="details">
+ <h2>Someone Famous</h2>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+ </div>
         </>
     );
 }
