@@ -22,13 +22,15 @@
     max-height: 18vh;
     max-width: 60%;
 }
-body{
+
+/* Commenting  qki new component banane pe Horizontal Line aa rhi hai(Our Pillars) */
+/* body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #ebf5fc;
-}
+} */
 .containerr{
     display: flex;
     justify-content: space-around;
