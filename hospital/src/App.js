@@ -1,12 +1,10 @@
-import './App.css';
- import {OurPillars} from "./OurPillars"
- 
- 
+
+ import {DischargeSection} from "../src/ForPatientsPage/JSX Files/DischargeSection"
 
 function App() {
   return (
     <>
- <OurPillars/>
+ <DischargeSection/>
     </>
   );
 }
