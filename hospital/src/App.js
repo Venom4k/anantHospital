@@ -1,13 +1,12 @@
 import './App.css';
+ import {OurPillars} from "./OurPillars"
  
  
 
 function App() {
   return (
     <>
- <Navigation/>
- <FrontPage/>
- 
+ <OurPillars/>
     </>
   );
 }

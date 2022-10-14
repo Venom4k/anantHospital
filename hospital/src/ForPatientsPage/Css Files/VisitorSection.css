@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headingBox{
+    width: 90vw;
+    background-color: #05AFEF;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 0px auto;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+} 
+.Heading{
+    width: 100%;
+    text-align: center;
+    font-size:  1.8rem;
+    margin: 5px auto;
+    color: white;
+    /* border: 2px solid black; */
+
+}
+.contentBox{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* background-color: lightgrey; */
+   
+    flex-direction: column; 
+    /* border: 5px solid rgb(204, 204, 204); */
+    padding-top: 10px;
+  
+}
+.smallHeading{
+    /* border: 2px solid black; */
+    font-size: 1.5rem;
+    margin-top: 15px;
+    text-align: center;
+}
+.para1{
+    width:fit-content;
+    text-align: center;
+    font-size: 1.1rem;
+    /* border: 2px solid black; */
+    color: #595252;
+    
+    padding: 5px;
+}
+.para2{
+    width:fit-content;
+    text-align: center;
+    font-size: 1.1rem;
+    /* border: 2px solid black; */
+    color: #595252;
+    
+    padding: 5px;
+}
+.bgborder{
+    /* border: 5px solid rgb(214, 214, 214); */
+    box-shadow: inset 0 0 12px #cacaca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 60vw; */
+    border-radius:10px;
+        padding: 10px;
+        width: 80vw;
+        margin-top: 10px;
+}.servicesBox{
+    position: relative;
+   background-color: white;
+   width: 220px;
+    
+   height:200px;
+    margin: 20px 30px;
+    border-radius: 20px;
+  border: 4px solid white;
+   overflow: hidden;
+   min-width: 100px;
+   /* Change from 150 to 150px */
+   min-height: 150px;
+   box-shadow: 10px 10px 10px #888888;
+transition: .5s;
+}
+
+.servicesBox:hover{
+    height:220px;
+    width: 250px;
+    box-shadow: 0px 0px 50px rgb(5, 175, 239,.8);
+    /* box-shadow: -10px -10px 10px rgb(5, 175, 239,.5); */
+}
+.opd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    transition: 0.5s;
+    font-family: Inter,sans-serif;
+  }
+
+  .time{
+    margin-bottom: 10px;
+    text-align: center;
+    pointer-events: none;
+  
+}
+ 
+.opd:hover  {
+    width: 300px;
+    background-color: #05AFEF;
+    color:white;
+    font-weight: bold;
+    height: 220px;
+}
+
+.opdHeading{
+    text-align: center;
+    margin:10px;
+    font-family:Inter,sans-serif;
+    font-weight: bold;
+    font-size:1.3rem;
+    pointer-events: none;
+}
+
+
+/* Responsive Here */
+/* @media only screen and (min-width: 768px) */
