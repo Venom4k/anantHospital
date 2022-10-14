@@ -1,9 +1,9 @@
-import {SafetySection} from "../src/ForPatientsPage/JSX Files/SafetySection";
-
+// import {SafetySection} from "../src/ForPatientsPage/JSX Files/SafetySection";
+import {VisitorSection} from "./ForPatientsPage/JSX Files/VisitorSection"
 function App() {
   return (
     <>
-<SafetySection/>
+<VisitorSection/>
     </>
   );
 }
