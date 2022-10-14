@@ -16,6 +16,12 @@ function DischargeSection(){
     <li>For any further medical assitance or queries,you can connect us online via email or phone.</li>
     </ol>
     </div>
+
+     
+   <div className="imgbox">
+   
+   </div>
+    
     </div>
 
     </>

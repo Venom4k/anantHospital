@@ -1,10 +1,9 @@
-
- import {DischargeSection} from "../src/ForPatientsPage/JSX Files/DischargeSection"
+import {SafetySection} from "../src/ForPatientsPage/JSX Files/SafetySection";
 
 function App() {
   return (
     <>
- <DischargeSection/>
+<SafetySection/>
     </>
   );
 }

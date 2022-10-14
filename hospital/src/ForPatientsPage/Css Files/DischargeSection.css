@@ -83,4 +83,49 @@ transform:skewY(45deg);
 }
 
  
+.imgbox{
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    /* border: 2px solid black ; */
+    background-image: url(../../images/girl.png); 
+    background-size: 210px;
+    background-repeat: no-repeat;
+    background-position-x: 34px;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+    border: 1px solid rgb(206, 206, 206);
+ 
+    
+}
+/* Glowing Border */
+.imgbox::before{
 
+    content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #13ff13, #ad27ad, #bd2681, #6512b9, #ff3300de, #5aabde);
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: glower 20s linear infinite;
+}
+ 
+@keyframes glower {
+    0% {
+      background-position: 0 0;
+    }
+    
+    50% {
+      background-position: 400% 0;
+    }
+    
+    100% {
+      background-position: 0 0;
+    }
+  }
