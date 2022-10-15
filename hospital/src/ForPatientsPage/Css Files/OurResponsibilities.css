@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+.containes{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bigHeadingBox{
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+width: 40vw;
+height: 10vh;
+ 
+}
+.bigHeading{
+    font-size: 2rem;
+    width:inherit;
+    height: inherit;
+    text-align: center;
+    border: 2px solid rgb(224, 224, 224);
+}
+ 
+ 
+.smallHeading{
+font-size: 1.2rem;
+font-weight: bold;
+padding-bottom: 10px;
+}
+
+li{
+    font-size: .9rem;
+    line-height: 23px;
+    margin-bottom: 1px;
+}
+
+.skewed{
+    width: 70em;
+    color: #f1f1f1;
+    display: flex;  
+    background: #111;
+    margin: 2em 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+.text{
+    padding: 1.5rem;
+    width: 50%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+ 
+.image{
+    width: 60%;
+    
+    height: 23em;
+    position: relative;
+    overflow: hidden;
+}
+.image::before{
+    content: " ";
+    position: absolute;
+    left: -6.1em;
+    top:50%;
+    transform: translateY(-50) rotate(20deg);
+    background: #111;
+    width: 40%;
+    height: 140%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+
+}
+.skewed-left .image::before{
+    transform: translateY(-60%) rotate(-20deg);
+    left:initial;
+    right:-6.1em
+}
+        img {
+            width: 140;
+           
+        }
+
+/* Responsive */
+@media screen and (max-width : 740px){
+    .bigHeadingBox{
+        width: fit-content;
+height: fit-content;
+padding: 10px;
+ 
+    }
+    .skewed{
+        display: block;
+        width: 24em;
+        
+    }
+    .image,.text{
+        width: 100%;
+        padding: .5rem;
+         
+        
+    }
+    img{ width:160%;
+        height: 18em;
+    }
+
+    .skewed .image::before{
+        width: 120%;
+        height: 0%;
+        top:-5em;
+        left:50%;
+        transform: translateX(-60%) rotate(-10deg);
+        top: initial;
+        bottom: -5em;
+    }
+    .smallHeading{
+        
+  
+    }
+}

@@ -1,10 +1,12 @@
-// import {SafetySection} from "../src/ForPatientsPage/JSX Files/SafetySection";
-import {VisitorSection} from "./ForPatientsPage/JSX Files/VisitorSection"
+import {SafetySection } from "./ForPatientsPage/JSX Files/SafetySection";
 function App() {
   return (
-    <>
-<VisitorSection/>
-    </>
+<>
+<SafetySection/>
+
+</>
+
+
   );
 }
 
