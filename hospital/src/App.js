@@ -1,8 +1,8 @@
- import {FacilitiesServices} from "../src/FacilitiesServicesPage/JSX/FacilitiesServices"
+ import {LoginForm} from "../src/ForPatientsPage/JSX Files/LoginForm"
 function App(){
   return(
     <>
- <FacilitiesServices/>
+ <LoginForm/>
      </>
   );
 

@@ -5,72 +5,156 @@
   
  }
 
- body{
+.bigBox{
     display: flex;
     justify-content: center;
     align-items: center;
     
-    background: linear-gradient(45deg,#ffaf00,#bb02ff);
+    background: hsla(217, 100%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
     background-attachment: fixed;
    flex-direction: row;
+   padding: 50px;
+   padding-top: 10px;
+   min-height: 100vh;
+   width: 100%;
     
  }
  .containerrr{
     position:relative ;
-    width: 1150px;
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
+    
+ }
+ .asd{
+    position:relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+     
  }
 
 
  .containerrr .carder{
 
     position: relative;
-    width: 300px;
-    height: 420px;
+    width: 350px;
+    height:600px;
     background: #fff;
     margin: 20px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
     transition: 0.5s;
+    /* background: hsla(152, 100%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 ); */
+
+    background: hsla(152, 100%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 );
+    backdrop-filter: blur(20px);
+    
+    
  }
- .containerrr:hover .carder{
+ .asd:hover .carder{
     filter: blur(20px);
     transform: scale(0.9);
     opacity: 0.5;
+    
 
  }
- .containerrr .carder:hover{
+ .asd .carder:hover{
     filter: blur(0px);
     transform: scale(1.1);
     opacity: 1;
  }
- .containerrr .carder .circler{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    clip-path: circle(180px at center 0);
-    text-align: center;
- }
+ 
 
  .containerrr .carder .circler h2{
     color: #fff;
     font-size: 4.5rem;
     padding: 30px 0;
  }
- .containerrr .carder .contenter{
-    position: absolute;
-    bottom: 10px;
+ .containerrr .carder .listBoxer{
+ 
  padding: 20px;
     text-align: center;
+    /* border: 2px solid black; */
+    height:  inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
  }
- .containerrr .carder .contenter p{
-    color: #666;
+ .itemes{
+    font-size: 1rem;
+    color: rgb(0, 0, 44);
+    text-align: center;
+    transition: 0.3s;
+    padding: 10px;
+    
+  
  }
+ .itemes:hover{
+    border: 5px solid white;
+    border-radius: 20px; 
+ }
+
+ .HeadingBox{
+    /* border:2px solid black; */
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+ }
+ .smallbox{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    background-color: white;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    background: transparent;
+    border: 2px solid white;
+ }
+
+ .bigHeading{
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    font-size: 2rem;
+    padding: 5px 40px;
+ }
+
+ 
+
+ 
+ 
 
 
