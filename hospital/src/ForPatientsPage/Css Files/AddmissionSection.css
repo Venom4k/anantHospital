@@ -1,0 +1,165 @@
+/* *{
+    margin: 0;
+    padding: 0;
+
+}
+ .processbox{
+    width: 100%;
+     height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: grey; */
+ 
+ /* .smallbox{
+ height: 50vh;
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+ }
+    /* background-color: red; */
+  
+
+    *{
+        margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+            /* border: 1px solid black; */
+    }
+    .bigBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid black;
+    }
+    
+    .responsiveicon{
+     
+        height: 15vh;
+        max-height: 20vh;
+        max-width: 70%;
+    margin: auto;
+    margin-bottom: 12px;
+    } .responsiveicons{
+         margin: auto;
+        height: 11vh;
+        max-height: 17vh;
+        max-width: 55%;
+        margin-bottom: 12px;
+    }
+ 
+    .containerr{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+  
+        flex-wrap: wrap;
+        border: 2px solid black;
+      width: 100%;
+        margin-top: 20px;
+    }
+    .containerr .carder{
+        position: relative;
+        min-width: 350px;
+        height: 200px;
+        box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+                    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+                    5px 5px 5px rgba(0, 0, 0, 0.05),
+                    -5px -5px 5px rgba(255, 255, 255, 0.05);
+                    border-radius: 15px;
+                    margin: 20px;
+    }
+    .containerr .carder .boxer{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        background:#ebf5fc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        transition: 0.5s;
+        
+    
+    }
+    .containerr .carder:hover .boxer{
+        transform: translateY(-50px);
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        background: hsla(217, 100%, 50%, 1);
+    
+        background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+        
+        background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+        
+        background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+        color: white;
+    }
+    .containerr .carder .boxer .contenter{
+        padding: 7px;
+        text-align: center;
+    }
+    .containerr .carder .boxer .contenter h2{
+        position: absolute;
+        top: -10px;
+        right: 30px;
+        font-size: 8em;
+        color: rgba(0, 0, 0, .02);
+        transform: 0.5s;
+        pointer-events:none;
+        font-family: 'Inter', sans-serif;
+    }
+    .containerr .carder:hover .boxer .contenter h2{
+     color: rgba(0, 0, 0, 0.05);
+    }
+    .containerr .carder .box .contenter h3{
+        font-size: 1.2em;
+        color: #777;
+        z-index: 1;
+        transition: 0.5s;
+        margin-bottom: 100px;
+    }
+    .containerr .carder:hover .boxer .contenter h3{
+        color: #fff;
+    }
+    .containerr .carder:hover .boxer .contenter p{
+        color: white;
+    }
+    .containerr .carder .boxer .contenter p{
+        font-size: .9rem;
+        font-weight: 500;
+        color: #2c2c2c;
+        z-index: 1;
+        transition: 0.5s;
+        font-family: 'Inter', sans-serif;
+    }
+    .containerr .carder .boxer .contenter a{
+        position: relative;
+        display: inline-block;
+        padding:8px 20px;
+    
+        background-color: #03a9f4;
+        margin-top: 12px;
+        border-radius: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 400;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        font-size: .8rem;
+        
+         
+    } 
+    .containerr .carder:hover .boxer .contenter a{
+    background: #ff568f;
+    }
+
+ 
+
+
+ 

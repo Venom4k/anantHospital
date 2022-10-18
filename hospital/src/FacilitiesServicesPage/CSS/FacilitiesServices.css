@@ -1,0 +1,76 @@
+ *{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  
+ }
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(45deg,#ffaf00,#bb02ff);
+    background-attachment: fixed;
+   flex-direction: row;
+    
+ }
+ .containerrr{
+    position:relative ;
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+ }
+
+
+ .containerrr .carder{
+
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+ }
+ .containerrr:hover .carder{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+
+ }
+ .containerrr .carder:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+ }
+ .containerrr .carder .circler{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+ }
+
+ .containerrr .carder .circler h2{
+    color: #fff;
+    font-size: 4.5rem;
+    padding: 30px 0;
+ }
+ .containerrr .carder .contenter{
+    position: absolute;
+    bottom: 10px;
+ padding: 20px;
+    text-align: center;
+ }
+ .containerrr .carder .contenter p{
+    color: #666;
+ }
+
+
