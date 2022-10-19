@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.loginSection{
+    height: auto;
+    width: 100%;
+    background-image: url("./loginbackground3.jpg");
+  /* height: 80vh; */
+  width:100%;
+  /* border: 2px solid black; */
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+ 
+
+z-index: 0;
+}
+
+.bgblack{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+.contentBox{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 2px solid black; */
+    z-index: 2;
+    min-height: 100vh;
+    /* border: 2px solid red;  */
+}
+
+.formBox{
+    height: 450px;
+    width: 600px;
+    margin: 20px;
+    backdrop-filter:blur(5px);
+    background: transparent;
+   border-radius: 20px;
+   border: 1px solid white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+.smallsection{
+    /* background-color: rgb(98, 255, 247); */
+    height: 50px;
+    width:220px;
+    margin: 14px;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   flex-direction: column;
+   color:white
+  
+ 
+}
+label{
+    color: white;
+    text-align: left;
+    font-size: 1.1em;
+   width: inherit;
+   transition: 0.5s;
+}
+label::after{
+    content: "*";
+    color: red;
+    margin: 5px;
+}
+input{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: inherit;
+    padding: 2px;
+}
+ 
+ 
+form{
+    width: inherit;
+ 
+    height: inherit;
+}
+
+.commentSection{
+    height: 130px;
+    width:400px;
+ 
+  
+    display: flex;
+ 
+   align-items: center;
+   
+    flex-direction: column;
+}
+
+.comments{
+    height: 100px;
+}
+
+.buttonsection{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.btnes{
+   border: 2px solid rgb(255, 255, 255);
+ padding: 4px 35px;
+    transition: 0.5s;
+    color: white;
+    border-radius: 10px;
+    
+}
+.btnes:hover{
+    color:white;
+    background:#09C6F9;
+    box-shadow: 0 0 10px #09C6F9,0 0 40px #09C6F9,0 0 80px #09C6F9;
+  
+}
+textarea{
+
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: inherit;
+    padding: 2px;
+}
+.headingBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    /* margin: 10px 0px; */
+}
+.sbox{
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    width: fit-content;
+
+    height: inherit;
+
+
+
+}
+.heading{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 500;
+padding: 10px 30px;
+}
+
+

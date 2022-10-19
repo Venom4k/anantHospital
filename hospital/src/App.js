@@ -1,8 +1,8 @@
- import {LoginForm} from "../src/ForPatientsPage/JSX Files/LoginForm"
-function App(){
+ import {CashlessSection} from "../src/ForPatientsPage/JSX Files/CashlessSection"
+ function App(){
   return(
     <>
- <LoginForm/>
+<CashlessSection/>
      </>
   );
 
