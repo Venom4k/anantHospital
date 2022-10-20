@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.InternationalSection{
+/* border: 2px solid black; */
+}
+.bigheading{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigheadingbox{
+width: fit-content;
+height: fit-content;
+background-color: #05AFEF;
+border-radius: 10px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+margin: 10px;
+
+}
+.realbigheading{
+    font-size: 2rem;
+    padding: 3px 25px;
+    color: white;
+}
+
+#badhabox {
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    
+}
+
+.patientbox {
+    border: 1px solid rgb(136, 136, 136);
+    width: 900px;
+    height: fit-content;
+
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 20px;
+}
+
+.patientbox:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    transform: scale(1.1);
+}
+
+.headingBox {
+    width: 100%;
+    /* border: 2px solid rgb(14, 158, 158); */
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.borderboxheading {
+    /* border: 2px solid green; */
+    text-align: center;
+    width: inherit;
+    text-align: left;
+    background-color: #05AFEF;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+
+.realheading {
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px;
+    font-weight: 500;
+}
+
+ul {
+    padding: 5px 10px;
+}
+
+li {
+    margin: 4px;
+}
+/* Process section */
+.processbigbox{
+
+    border: 1px solid rgb(136, 136, 136);
+    width: auto;
+    height: auto;
+
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 20px;
+
+}
+.processbox{
+   width: 100%;
+   height: auto;
+   /* border: 2px solid black; */
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+.para{
+    font-size: 1rem;
+    text-align: center ;
+}
+.itemss{
+    height: 120px;
+    width: 200px;
+    /* background-color: green; */
+    margin: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+
+
+
+@media screen and (max-width: 946px) {
+    .patientbox {
+        width: fit-content;
+    }
+
+
+}

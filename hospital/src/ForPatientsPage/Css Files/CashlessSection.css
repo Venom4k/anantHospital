@@ -1,32 +1,158 @@
-.cashlessSection{
-    background-color: grey;
+.DividerBox{
+    /* background-color: grey; */
     min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    border: 2px solid black;
+    
 }
 .leftBox{
-    width: 43.75rem;
-    height: 500px;
- background-color: red;
+    width: 750px;
+    height: auto;
+ /* background-color: red; */
     /* border: 2px solid beige; */
     border-radius: 10px;
     margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border:1px solid lightgrey;
+    
 }
-.contentBox{
-    background-color:purple;
+.InsuranceBox{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    /* overflow: hidden; */
+    margin: 20px 10px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+.InsuranceBox:hover{
+ transform: translateY(-10px);
+ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+.imgresponsive{
+    width: 100%;
+    height:auto;
+}
+.details{
+   border: 2px solid black;
     width: inherit;
-    height: inherit;
-
+    height:auto;
+    /* background-color: rgb(153, 153, 0); */
+   padding: 5px 5px;
+    /* border: 2px solid black; */
+}
+.logoname{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.btner{
+    
+    margin: auto auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #05AFEF;
+    border-radius: 10px;
+    padding: 1px 10px;
+    transition: 0.5s;
+    
 
 }
+/* .cashlessSection .leftBox .InsuranceBox:hover button{
+    background-color: #ff568f;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+transform: scale(1.05);
+} */
+ 
+/* Right */
+
+/* content box me height 100% krni hai */
+
+/* public sector image size mistake(change) */
 .RightBox{
+
     width: 21.875rem;
     border-radius: 10px;
-    height: 500px;
-    background-color: rgb(0, 255, 13);
-    border: 2px solid black;
+    height: 1100px;
+    /* background-color: rgb(0, 255, 13); */
+    border: 1px solid rgb(122, 122, 122);
 margin: 10px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+transition: 0.5s;
+
 }
+.RightBox:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px);
+}
+
+.pheadingbox{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px 0px;
+}
+.psheadingbox{
+width: fit-content;
+height: fit-content;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+padding: 8px 20px;
+border: 2px solid rgb(221, 221, 221);
+border-radius: 10px; 
+}
+.pheading{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.imgresponsives{
+
+    width: 100%;
+    height:auto;
+    margin-top: 0px;
+}
+ 
+.pbox{
+    width: 220px;
+    height: 150px;
+    border: 3px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   margin: 10px;
+   transition: 0.5s;
+}
+.pbox:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);  
+    transform: scale(1.08);
+}
+
+.psubheading{
+    text-align: center;
+    font-weight: 500;
+   
+}
+ 

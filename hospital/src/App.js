@@ -1,8 +1,9 @@
- import {CashlessSection} from "../src/ForPatientsPage/JSX Files/CashlessSection"
+ import {InternationalPatient} from "./For International Patient/JSX/InternationalPatient";
+ 
  function App(){
   return(
     <>
-<CashlessSection/>
+ <InternationalPatient/>
      </>
   );
 
