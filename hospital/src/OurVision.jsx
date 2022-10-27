@@ -31,7 +31,7 @@ function OurVision(){
         <div className="contenter">
 
             <img className="responsiveicones" src={require("./images/mission.png")} />
-            <h3>OUR VALUE</h3>
+            <h3>OUR MISSION</h3>
             <p>To be a Multi specialty health provider with modern technology and advanced therapies as well as an educational and research institute dedicated for excellence</p>
             <a href="#">Read More</a>
         </div>

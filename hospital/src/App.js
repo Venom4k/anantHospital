@@ -1,9 +1,10 @@
- import {InternationalPatient} from "./For International Patient/JSX/InternationalPatient";
- 
- function App(){
+import {FacilitiesServices} from "./FacilitiesServicesPage/JSX/FacilitiesServices"
+function App(){
   return(
     <>
- <InternationalPatient/>
+ <FacilitiesServices/>
+ 
+ 
      </>
   );
 

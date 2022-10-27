@@ -2,16 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid black; */
   }
-  /* changes */
-  /* body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-
-
-  } */
+.facilitiesSection{
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.headingfacilities{
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 1px;
+/* border: 2px solid beige; */
+ 
+}
  
 .responsiveimg{
     width: 100%;
@@ -25,6 +35,8 @@
     background-color: #05AFEF;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #888888;
+    max-height: fit-content;
+    padding: 10px;
   
   }
   .boxx{
@@ -67,15 +79,21 @@
   }
   .fbox{
     height: 15vh;
-    width: 30vw;
+    width:30vw;
     background-color: white;
     box-shadow: 10px 10px 10px #888888;
     text-align: center;
     border-radius: 10px;
     display: flex;
+    transition: 0.5s;
+   
+  }
+  .fbox:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    transform: scale(1.1);
   }
   .s-left{
-    width: 30vw;
+    width: 10vw;
     height: inherit;
     /* background-color: grey; */
     border-bottom-left-radius: 10px;
@@ -86,7 +104,8 @@
     align-items: center;
   }
   .s-right{
-    width: 70vw;
+    width: inherit;
+    box-sizing: border-box;
     height: inherit;
 background-color: white;
 font-size: 1vw;
@@ -102,8 +121,103 @@ padding: 1rem;
     font-weight: bold;
   }
   .girlDoctor{
-    max-height: 100vh;
+    
     position:relative;
     height: 85vh;
+    width: 10vw;
   top: -5px;
+  }
+.facilitiespara{
+  font-size: .9em;
+  padding: 10px;
+ width: fit-content;
+ height: fit-content;
+ 
+}
+ 
+  /* Responsive  */
+
+  @media screen and (max-width:480px){
+
+.leftt{
+  display: none;
+}
+
+.fbox{
+  height: 10vh;
+  width: 70vw;
+  background-color: white;
+  box-shadow: 10px 10px 10px #888888;
+ 
+}
+
+.s-right{
+  width: 70vw;
+  
+ 
+font-size: 1rem;
+ 
+padding: 2px;
+ 
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+ 
+}
+
+.responsiveimg{
+  width: 70%;
+  height: auto;
+  max-width: 12vh;   
+  
+}
+.s-left{
+  width: 30vw;
+  height: inherit;
+}
+.contains{
+  /* background-color: red; */
+  height:60vh;
+  width: 100vw;
+  background-color: #05AFEF;
+  border-radius: 10px;
+  
+  box-shadow: 10px 10px 10px #888888;
+ 
+}
+.boxx{
+  height: 50vh;
+  width: 100%;
+  box-sizing: border-box;
+ 
+ 
+}
+.facilitiesSection{
+  margin-top: 10px;
+  /* border: 2px solid black; */
+  padding: 10px;
+  height: 60vh;
+}
+.heading{
+  font-size: 1.5rem;
+  color: white;
+  margin: 25px;
+ 
+  padding: 10px ;
+}
+.facilitiespara{
+  font-size:.7em;
+  padding: 5px;
+}
+
+
+  }
+
+  @media screen and (max-width:1000px){
+    .leftt{
+      display: none;
+    }
+    .rightt{
+     
+     
+    }
   }

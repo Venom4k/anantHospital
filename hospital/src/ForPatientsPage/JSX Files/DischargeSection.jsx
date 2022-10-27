@@ -5,8 +5,8 @@ import "../Css Files/DischargeSection.css"
 function DischargeSection(){
     return(
     <>
-    <div className="bigboxs">
-     <div className="boxer">
+    <div className="bigbox2">
+     <div className="boxer3">
     <h3>Discharge Process</h3>
     <ol style={{listStyleType:"number"}} >
     <li> When the doctor feels that the patient has recovered from the illness and is completely fit be discharge.</li>

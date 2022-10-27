@@ -5,7 +5,8 @@
 align-items: center;
 flex-direction: column;
 height: auto;
-border:5px solid black
+
+/* border:5px solid black */
 }
 .h-1,.para{
     text-align: center;
@@ -15,11 +16,12 @@ border:5px solid black
 }
 .h-1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     margin: 20px 0px;
     color: #333333;
     font-weight: bold;
-    margin-bottom:4rem;
+    margin-bottom:4.5rem;
+    width: 100%;
     
 }
 .para{
@@ -29,4 +31,26 @@ padding: 0px 40px;
 font-family: 'Inter', sans-serif;
 font-size: 1rem;
 color:#595252;
+}
+
+/* Responsive for mobile  */
+
+@media screen and (max-width:480px){
+    .h-1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.4rem;
+    padding: 10px;
+       height: fit-content;
+      
+       margin-bottom: 14px;
+        }
+
+.para{
+width: 100%;
+ 
+padding: 0px 10px;
+ 
+font-size: .8rem;
+text-align: center;
+}
 }

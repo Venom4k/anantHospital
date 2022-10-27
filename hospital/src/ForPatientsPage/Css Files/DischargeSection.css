@@ -1,14 +1,16 @@
-.bigboxs{
+.bigbox2{
     margin: 0;
     padding: 0;
     background-color: #ffffff;
     height: 90vh;
     width: 100%;
+    margin-top: 50px;
+    /* border: 8px solid black; */
  
 }
 /* For Responsive change unit from px to vh or vw */
-.boxer{
-    position: absolute;
+.boxer3{
+    position: relative;
     top: 50%;
     left:27%;
     transform: translate(-50%,-50%)skewY(-10deg);
@@ -31,12 +33,12 @@ ol >li{
     padding: 0px;
 }
  
-.boxer h3{
+.boxer3 h3{
     font-size: 2rem;
     text-align: center;
     margin-bottom: 5px;
 }
-.boxer:before{
+.boxer3:before{
     content: '';
     position:absolute;
     top:0;
@@ -48,7 +50,7 @@ ol >li{
     left: -25px;
 }
 
-.boxer:after{
+.boxer3:after{
     content: '';
     position:absolute;
     top:-25px;
@@ -60,7 +62,7 @@ ol >li{
     transform: skewX(45deg);
 
 }
-.boxer h3{
+.boxer3 h3{
     position: relative;
     background: #169fff;
     color:#fff;
@@ -70,7 +72,7 @@ ol >li{
     text-shadow: -2px 2px 10px rgba(0, 0, 0, .5);
 }
 
-.boxer h3:before{
+.boxer3 h3:before{
 content: '';
 position: absolute;
 top: 0;
@@ -84,9 +86,9 @@ transform:skewY(45deg);
 
  
 .imgbox{
-    position: absolute;
-    right: 15%;
-    top: 30%;
+    position: relative;
+    right: -70%;
+    top: -50%;
     height: 250px;
     width:250px;
     border-radius: 50%;
@@ -102,7 +104,7 @@ transform:skewY(45deg);
     
 }
 /* Glowing Border */
-.imgbox::before{
+/* .imgbox::before{
 
     content: '';
   position: absolute;
@@ -127,5 +129,5 @@ transform:skewY(45deg);
     
     100% {
       background-position: 0 0;
-    }
-  }
+    } */
+  

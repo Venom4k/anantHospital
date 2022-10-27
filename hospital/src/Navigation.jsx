@@ -24,7 +24,7 @@ function Navigation() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className="navItem">
+            <div className="navItem" id="hambuger">
               <ul className="navbar-nav me-auto mb-2 navi mb-lg-0">
                 <li className="nav-item">
                   <a className="nav-link " aria-current="page" href="#">

@@ -3,6 +3,7 @@ import "../Css Files/LoginForm.css";
 
 function LoginForm() {
   // For FULLNAME
+  
   const badda = () => {
     var a = document.getElementById("hi");
     a.setAttribute("style", "transform: translateY(-10px);font-size: 1.2em; ");

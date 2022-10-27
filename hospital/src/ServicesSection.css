@@ -1,52 +1,83 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
+    
+}
+.serviceHeading{
+    /* border: 2px solid black; */
+    
+ 
+    font-size: 3rem;
+    font-family:"Inter";
+    text-align: center;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin: 40px auto;
+    margin-top: 100px;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
  
-.bigBox{
-    border: 2px solid black;
-    min-height: 100vh;
-}
-.boxer{
+ .servicesSection{
+   margin-top: 0px;
+   /* border: 2px solid rgb(255, 26, 26); */
+ /* border: 5px solid red; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ }
+.boxer1{
     margin-top: 30px;
   max-width:100%;
-  width: 100%;
+  width:90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:whitesmoke;
+    background-color:rgb(255, 255, 255);
     flex-wrap: wrap;
     min-height: 60vh;
+    /* border: 5px solid green; */
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+   border-radius: 10px;
+
     
 }
 .servicesBox{
-    position: relative;
+ 
    background-color: white;
-   width: 220px;
+   width: 300px;
     
-   height:270px;
-    margin: 20px 30px;
+   height:350px;
+    margin: 80px 30px;
     border-radius: 20px;
   border: 4px solid white;
    overflow: hidden;
    min-width: 100px;
+   
    /* Change from 150 to 150px */
-   min-height: 150px;
+   
    box-shadow: 10px 10px 10px #888888;
 transition: .5s;
 }
 .servicesBox:hover{
-    height:300px;
-    width: 250px;
+  transform: scale(1.1);
     box-shadow: 0px 0px 50px rgb(5, 175, 239,.8);
     /* box-shadow: -10px -10px 10px rgb(5, 175, 239,.5); */
+    /* background-color: #05AFEF; */
 }
 .content{
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid black; */
+    height: 100%;
     flex-direction: column;
- 
+    padding-bottom: 40px;
 }
 .imgresponsive{
     object-fit: cover;
@@ -58,6 +89,7 @@ transition: .5s;
     margin:10px;
     font-family:Inter,sans-serif;
     font-weight: bold;
+    font-size: 1.3rem;
 }
 .sdetail{
     font-size: .8rem;
@@ -75,7 +107,8 @@ transition: .5s;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 270px;
+  width: fit-content;
+  height: fit-content;
   transition: 0.5s;
   font-family: Inter,sans-serif;
 }
@@ -86,11 +119,11 @@ transition: .5s;
 }
  
 .opd:hover  {
-    width: 280px;
+     transform: scale(1.3);
     background-color: #05AFEF;
     color:white;
     font-weight: bold;
-    height: 300px;
+    
 }
 .secondBox{
     display: flex;
@@ -103,5 +136,19 @@ transition: .5s;
     font-family:Inter,sans-serif;
     font-weight: bold;
     font-size:1.5rem;
+}
+
+
+@media screen and (max-width:480px){
+.serviceHeading{
+    font-size: 2em;
+}
+
+.servicesBox{
+    width: 250px;
+    height: 300px;
+    margin: 20px 10px;
+}
+
 }
  

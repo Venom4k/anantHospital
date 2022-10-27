@@ -5,6 +5,7 @@
     /* border: 2px solid black; */
     height: 58px;
     z-index: 3;
+    background-color: red;
 }
 .navItem {
   display: inline-block;
@@ -12,7 +13,9 @@
   right: 0;
   /* border: 2px solid black; */
   margin-right: 15px;
+ transition: 0.5s;
 }
+ 
 
 .navbar-nav > li{
     padding-left:8px;
@@ -25,9 +28,15 @@
 color: #333333;
 font-family:'Poppins', sans-serif;
  letter-spacing: .002px;
- font-size: .8rem;
+ font-size: .9rem;
+  transition: 0.5s;
+  font-weight: bold;
+    padding: 0px;
+  }
+  .navbar-nav > li > a:hover{
+    transform: scale(1.1);
   
-    
+  
   }
  
   /* Logo and Name */
@@ -41,8 +50,27 @@ font-family:'Poppins', sans-serif;
     display: flex;
     align-items: center;
     color: red;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
   
   }
+
+  /* Responsive */
+
+  @media screen and (max-width: 480px) {
+ .logo{
+  width: 45px;
+  height: 45px;
+ }
+ .navbar-nav > li > a{
+ color: white;
+ margin: 3px;
+ color: black;
+  }
+  #hambuger{
+    background-color: white; 
+   border-radius: 10px;
+  }
+ 
+}
