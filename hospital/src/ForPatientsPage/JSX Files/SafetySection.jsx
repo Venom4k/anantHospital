@@ -4,12 +4,12 @@ function SafetySection() {
   return (
     <>
       <div className="safetySection">
-        <div className="bgblack">
-      <div className="bigHeadingBox"><h1 className="bigHeading">Our Responsibilities</h1></div>
-        <div className="contentBox">
-          <div className="boxes blur1">
-            <div className="smallheadingbox">
-              <h1 className="smallheading">Security Staff / Safety Measures</h1>
+        <div className="bgblack12">
+      <div className="bigHeadingBox12"><h1 className="bigHeading12">Our Responsibilities</h1></div>
+        <div className="contentBox12">
+          <div className="boxes12 blur1">
+            <div className="smallheadingbox12">
+              <h1 className="smallheadingg">Security Staff / Safety Measures</h1>
               </div>
               <div className="measures">
               <ol style={{listStyle:"disc"}}>
@@ -26,8 +26,8 @@ function SafetySection() {
             
           </div>
 
-          <div className="boxes blur2"><div className="smallheadingbox">
-          <h1 className="smallheading">General Guidelines</h1>
+          <div className="boxes12 blur2"><div className="smallheadingbox12">
+          <h1 className="smallheadingg">General Guidelines</h1>
 
           </div>
           <div className="measures">

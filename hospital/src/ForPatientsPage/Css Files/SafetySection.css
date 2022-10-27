@@ -14,7 +14,7 @@
 
 z-index: 0;
 }
-.bgblack{
+.bgblack12{
   width: inherit;
   height: inherit;
   background-color: rgba(0, 0, 0, .4);
@@ -27,7 +27,7 @@ z-index: 0;
   flex-wrap: wrap;
   transition: 0.5s; */
 }
-.contentBox{
+.contentBox12{
   display: flex;
   justify-content:center;
   align-items: flex-start;
@@ -40,7 +40,7 @@ z-index: 0;
 }
  
  
-.boxes{
+.boxes12{
   
   width: 25rem;
   
@@ -57,7 +57,7 @@ z-index: 0;
   transition: 0.5s;
   
 }
-.contentBox   .boxes:hover{
+.contentBox12   .boxes12:hover{
    filter: blur(0px);
   transform: scale(1.08);
  
@@ -65,7 +65,7 @@ z-index: 0;
 }
  
 
-.smallheadingbox{
+.smallheadingbox12{
   height:fit-content;
   width: fit-content ;
   border: 2px solid rgba(255, 255, 255, 0.1);
@@ -74,7 +74,7 @@ z-index: 0;
   border-radius: 10px;
   margin: 10px;
 }
-.smallheading{
+.smallheadingg{
   width: inherit;
   height: inherit;
   color: white;
@@ -102,12 +102,12 @@ li{
   font-weight: 500;
 }
 
-.bigHeadingBox{
+.bigHeadingBox12{
   /* border: 2px solid white; */
   width: 100%;
   padding: 5px 10px;
 }
-.bigHeading{
+.bigHeading12{
   font-size: 2.5rem;
   color: white;
   font-weight: bold;

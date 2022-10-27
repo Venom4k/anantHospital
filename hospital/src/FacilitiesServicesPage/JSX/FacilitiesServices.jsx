@@ -1,34 +1,38 @@
 import "../CSS/FacilitiesServices.css";
-
+import { Navigation } from "../../Navigation"
 function FacilitiesServices() {
   return (
     <>
+      <Navigation />
       <div className="bigBox">
         <div className="containerrr">
           <div className="HeadingBox">
-     
+
             <div className="smallbox">
-       
+
               <h1 className="bigHeading">Facilities & Services</h1>{" "}
-            </div> 
+            </div>
           </div>
           <div className="asd">
-            <div className="carder">
-              <div className="listBoxer">
-                <h1 className="itemes">X Ray</h1>
-                <h1 className="itemes">CT Scan</h1>
-                <h1 className="itemes">ECG</h1>
-                <h1 className="itemes">ICCU</h1>
-                <h1 className="itemes">NICU</h1>
-                <h1 className="itemes">Store</h1>
-                <h1 className="itemes">Canteen</h1>
-                <h1 className="itemes">Cath Lab</h1>
-                <h1 className="itemes">Pathalogy</h1>
-                <h1 className="itemes">Sleep Lab</h1>
-                <h1 className="itemes">EEG Neuro</h1>
-                <h1 className="itemes">Stroke Unit</h1>
+            <div className="aos_less">
+              <div className="carder">
+                <div className="listBoxer">
+                  <h1 className="itemes">X Ray</h1>
+                  <h1 className="itemes">CT Scan</h1>
+                  <h1 className="itemes">ECG</h1>
+                  <h1 className="itemes">ICCU</h1>
+                  <h1 className="itemes">NICU</h1>
+                  <h1 className="itemes">Store</h1>
+                  <h1 className="itemes">Canteen</h1>
+                  <h1 className="itemes">Cath Lab</h1>
+                  <h1 className="itemes">Pathalogy</h1>
+                  <h1 className="itemes">Sleep Lab</h1>
+                  <h1 className="itemes">EEG Neuro</h1>
+                  <h1 className="itemes">Stroke Unit</h1>
+                </div>
               </div>
             </div>
+
 
             <div className="carder">
               <div className="listBoxer">

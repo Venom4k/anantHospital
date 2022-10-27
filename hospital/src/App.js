@@ -1,9 +1,9 @@
-import {FacilitiesServices} from "./FacilitiesServicesPage/JSX/FacilitiesServices"
-function App(){
+ import {ForPatient} from "./ForPatientsPage/JSX Files/ForPatient"
+// import {SafetySection} from "./ForPatientsPage/JSX Files/SafetySection"
+ function App(){
   return(
     <>
- <FacilitiesServices/>
- 
+  <ForPatient/>
  
      </>
   );
