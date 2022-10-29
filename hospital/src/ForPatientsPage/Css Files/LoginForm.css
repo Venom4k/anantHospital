@@ -6,31 +6,34 @@
 .loginSection{
     height: auto;
     width: 100%;
-    background-image: url("./loginbackground3.jpg");
+    background-image: url("./loginbackground5.jpg");
   /* height: 80vh; */
   width:100%;
   /* border: 2px solid black; */
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
+
+  margin-top: 100px;
  
 
 z-index: 0;
 }
 
-.bgblack{
+.bgblack3{
     width: inherit;
     height: inherit;
     background-color: rgba(0, 0, 0, .5);
     z-index: 1;
 }
-.contentBox{
+.contentBox2{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     /* border: 2px solid black; */
     z-index: 2;
-    min-height: 100vh;
+    min-height: 90vh;
+   margin: 50px;
     /* border: 2px solid red;  */
 }
 
@@ -134,7 +137,7 @@ textarea{
     width: inherit;
     padding: 2px;
 }
-.headingBox{
+.headingBox4{
     width: 100%;
     display: flex;
     justify-content: center;

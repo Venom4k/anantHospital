@@ -108,15 +108,16 @@ opacity: 1;
     font-size: 1.2em;
     color: #fff;
     text-align: center;
+    font-weight: bold;
     /* border: 4px solid  black; */
  
      
  
 }
 
-.containerer .carded .content P{
-    font-size: .9m;
-    color: #fff;
+.containerer .carded .contented .sidework{
+    font-size: .9rem;
+   color: white;
     font-weight: 300;
 }
 .bgimage1{

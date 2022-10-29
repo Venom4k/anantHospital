@@ -1,10 +1,10 @@
- import {ForPatient} from "./ForPatientsPage/JSX Files/ForPatient"
-// import {SafetySection} from "./ForPatientsPage/JSX Files/SafetySection"
- function App(){
+import {ForPatient} from "./ForPatientsPage/JSX Files/ForPatient"
+
+function App(){
   return(
     <>
-  <ForPatient/>
  
+ <ForPatient/>
      </>
   );
 

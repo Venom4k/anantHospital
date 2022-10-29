@@ -3,7 +3,8 @@ import "../Css Files/FAQSection.css";
 function FAQSection(){
     return(
         <>
-        <div className="headingBox"> <div className="headbox"> <h1 className="bigHeading">Frequently Asked Question</h1></div></div>
+        <div className="FAQSection">
+        <div className="headingBox5"> <div className="headbox2"> <h1 className="bigHeading5">Frequently Asked Question</h1></div></div>
         <div class="accordion" id="accordionExample">
 
 
@@ -90,6 +91,7 @@ Why see a medical weight loss specialist?
 
 
 
+</div>
 </div>
         
         </>

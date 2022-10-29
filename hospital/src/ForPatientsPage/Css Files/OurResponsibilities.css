@@ -5,24 +5,27 @@
     /* border: 2px solid black; */
 }
 .containes{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 .bigHeadingBox{
-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-width: 40vw;
-height: 10vh;
+box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+ 
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 2px solid white;
  
 }
 .bigHeading{
     font-size: 2rem;
-    width:inherit;
-    height: inherit;
+   height: inherit;
     text-align: center;
-    border: 2px solid rgb(224, 224, 224);
+    
+    
 }
  
  
@@ -30,10 +33,11 @@ height: 10vh;
 font-size: 1.2rem;
 font-weight: bold;
 padding-bottom: 10px;
+text-align: left;
 }
 
 li{
-    font-size: .9rem;
+    font-size: .95rem;
     line-height: 23px;
     margin-bottom: 1px;
 }
@@ -42,7 +46,7 @@ li{
     width: 70em;
     color: #f1f1f1;
     display: flex;  
-    background: #111;
+    background: rgb(255, 255, 255);
     margin: 2em 0;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
@@ -53,12 +57,13 @@ li{
     justify-content: space-evenly;
     align-items: flex-start;
     flex-direction: column;
+    color: black;
 }
  
 .image{
-    width: 60%;
+    width: 70%;
     
-    height: 23em;
+    height: 27em;
     position: relative;
     overflow: hidden;
 }
@@ -68,7 +73,7 @@ li{
     left: -6.1em;
     top:50%;
     transform: translateY(-50) rotate(20deg);
-    background: #111;
+    background: rgb(255, 255, 255);
     width: 40%;
     height: 140%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
@@ -116,8 +121,5 @@ padding: 10px;
         top: initial;
         bottom: -5em;
     }
-    .smallHeading{
-        
-  
-    }
+ 
 }

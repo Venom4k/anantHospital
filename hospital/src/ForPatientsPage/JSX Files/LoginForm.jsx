@@ -57,14 +57,14 @@ function LoginForm() {
   return (
     <>
       <div className="loginSection">
-        <div className="bgblack">
+        <div className="bgblack3">
         
-         <div className="headingBox">
+         <div className="headingBox4">
          <div className="sbox">
          <h1 className="heading">Write to Us</h1>
          </div>
          </div>
-          <div className="contentBox">
+          <div className="contentBox2">
             <div className="formBox">
               <div className="nameS smallsection">
                 <label for="" className="labelfor" id="hi">
@@ -98,6 +98,7 @@ function LoginForm() {
                   onMouseOver={mobile}
                   onMouseOut={cmobile}
                   required
+                  placeholder="Enter your number"
                 />
               </div>
               <div className="RelatedS smallsection">
@@ -121,6 +122,7 @@ function LoginForm() {
                   onMouseOut={ccomment}
                   className="comments"
                   required
+                  
                 />  
               </div>
               <div className="buttonsection">

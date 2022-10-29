@@ -1,3 +1,48 @@
+.forpatientheading{
+    background: white;
+    display: flex;
+    color: black;
+    font-size: 2rem;
+    margin-top: 90px;
+    font-weight: 600;
+  }
+  
+  .forpatientheading:before,
+  .forpatientheading:after {
+    content: '';
+    margin: auto 0em;
+    border-bottom: solid 1px;
+    flex: 1;
+  }
+  
+  .patientheading {
+    position: relative;
+    padding: 0.25em 1.2em;
+    overflow: hidden;
+    background: linear-gradient(currentcolor, currentcolor) no-repeat top center, linear-gradient(currentcolor, currentcolor) no-repeat bottom center;
+    background-size: calc(100% - 1.65em) 1px;
+  }
+  
+  .patientheading:before,
+  .patientheading:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: solid 1px;
+    border-top: none;
+    border-bottom: none;
+    transform: skew(45deg);
+     
+  }
+  
+  .patientheading:after {
+    transform: skew(-45deg)
+  }
+ 
+
 .DividerBox{
     /* background-color: grey; */
     min-height: 100vh;
@@ -6,7 +51,8 @@
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    margin-top:90px;
     
 }
 .leftBox{
@@ -16,14 +62,41 @@
     /* border: 2px solid beige; */
     border-radius: 10px;
     margin: 10px;
-    padding: 20px;
-    display: flex;
+    /* padding: 20px; */
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    border:1px solid lightgrey;
+    border:2px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
+}
+.InsuranceBoxer{
+    width: fit-content;
+    height: auto;
+     border-radius: 10px;
+     padding: 20px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     /* background-color: lightblue; */
+
+}
+.InsuranceHeading{
+    font-size: 1.6rem;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, .5);
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #05AFEF;
+    border-radius: 8px;
+    color: white;
 }
 .InsuranceBox{
     width: 200px;
@@ -40,7 +113,7 @@
    
 }
 .InsuranceBox:hover{
- transform: translateY(-10px);
+ transform: translateY(-20px);
  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
 }
@@ -49,7 +122,7 @@
     height:auto;
 }
 .details{
-   border: 2px solid black;
+   /* border: 2px solid black; */
     width: inherit;
     height:auto;
     /* background-color: rgb(153, 153, 0); */

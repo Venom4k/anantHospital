@@ -14,8 +14,8 @@ return(
         <div className="bgimage1 imgr">
         <div className="contented">
            
-            <h3>Dr.Anjali jain</h3>
-            <p>Director</p>
+            <h3>DR. B. K. PANSEY</h3>
+            <p className="sidework">Managing Director</p>
         </div>      
         </div>
     </div>
@@ -26,8 +26,8 @@ return(
     <div className="bgimage2 imgr">
         <div className="contented">
              
-            <h3>Dr.Riya Singh</h3>
-            <p>Managing Director</p>
+            <h3>DR. NACHIKET PANSEY</h3>
+            <p className="sidework">MBBS, DNB</p>
         </div>
         </div>
     </div>
@@ -38,8 +38,8 @@ return(
     <div className="bgimage3 imgr">
         <div className="contented">
  
-            <h3>Dr.Rhoit Sharma</h3>
-            <p>MBBS,Ms</p>
+            <h3>DR. MANIK PANSEY</h3>
+            <p className="sidework">Director</p>
         </div>
         </div> 
     </div>
@@ -49,8 +49,8 @@ return(
     <div className="bgimage4 imgr">
         <div className="contented">
  
-            <h3>Dr.Rhoit Sharma</h3>
-            <p>MBBS,Ms</p>
+            <h3>DR. ABOLI PANSEY</h3>
+            <p className="sidework">MBBS, MS</p>
         </div>
         </div>
     </div>
