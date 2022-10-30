@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.containervision{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    border: black solid 2px;
+}
+.headingvision{
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #888888;
+} 
+.card{
+    width: 300px;
+    margin:30px;
+    border-radius:15px; 
+    box-shadow: 10px 10px 10px #888888;
+    border: #05AFEF solid 2px;
+}
+/* .responsiveimg1{
+    width: 50%;
+}  */
+.card h2{
+    padding: 10px;
+    text-align: center;
+}
+.card p{
+    padding: 10px;
+    text-align: center;
+}
+.card:hover{
+    background-color: rgb(5,175,239);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+}

@@ -1,0 +1,25 @@
+.footerbox{
+    background-color:gray;
+    width: 100%;
+    display: flex;
+}
+.colsfoot{
+    margin-left:30px; 
+    color:white;
+}
+.parafooter{
+    margin-left:30px; color:white;
+}
+.belofooter{
+    padding: 10px; 
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+.icon1{
+    font-size:48px;
+    color:red
+}
+.social{
+    margin-left:30px;
+    color:white;
+}

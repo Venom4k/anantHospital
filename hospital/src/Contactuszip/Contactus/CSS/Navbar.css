@@ -1,0 +1,48 @@
+
+
+
+.navbar{
+    /* border: 2px solid black; */
+    height: 58px;
+    z-index: 3;
+}
+.navItem {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  /* border: 2px solid black; */
+  margin-right: 15px;
+}
+
+.navbar-nav > li{
+    padding-left:8px;
+    padding-right:8px;
+
+  
+    
+  }
+.navbar-nav > li > a{
+color: #333333;
+font-family:'Poppins', sans-serif;
+ letter-spacing: .002px;
+ font-size: .8rem;
+  
+    
+  }
+ 
+  /* Logo and Name */
+
+  .logo{
+    height: 49px;
+    width: 60px;
+    margin-right: 10px;
+  }
+  .logoName{
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }

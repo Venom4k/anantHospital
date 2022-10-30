@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.containerdes{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    border: black solid 2px;
+}
+.carddess{
+    width: 800px;
+    margin:30px;
+    border-radius:15px; 
+    border: rgb(5,175,239) solid 5px;
+    box-shadow:10px 10px 10px #888888 ;
+}
+.carddess h4{
+    text-align: center;
+    padding: 10px;
+}
+.carddess p{
+    padding: 10px;
+}
+.containerdes :hover{
+    background-color: rgb(5,175,239);
+    color: white;
+    cursor: pointer;
+    transform: scale(1,1);
+    transition: all 1s ease;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bigheading{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigheadingbox{
+width: fit-content;
+height: fit-content;
+background-color: #05AFEF;
+border-radius: 10px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+margin: 10px;
+
+}
+.realbigheading{
+    font-size: 2rem;
+    padding: 3px 25px;
+    color: white;
+}
+.respimagegallery{
+    width: 25%;
+    height:auto;
+    padding: 20px;
+    
+}
+.groupofimage{
+    display: flex;
+    flex-wrap: wrap;
+}
