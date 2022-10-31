@@ -100,16 +100,18 @@ padding: 10px;
     .skewed{
         display: block;
         width: 24em;
+        height: fit-content;
         
     }
     .image,.text{
         width: 100%;
-        padding: .5rem;
+        padding: .7rem;
          
         
     }
+ 
     img{ width:160%;
-        height: 18em;
+        height: 25em;
     }
 
     .skewed .image::before{

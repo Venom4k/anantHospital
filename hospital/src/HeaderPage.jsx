@@ -6,6 +6,7 @@ import { FacilitiesProvide } from "./FacilitiesProvide";
 import { ServicesSection } from "./ServicesSection";
 import {OurPillars} from "./OurPillars"
 import {Testimonialsection} from './Testimonialsection';
+import{Footer} from "./Footer"
 
 
 function HeaderPage() {
@@ -19,6 +20,7 @@ function HeaderPage() {
             <ServicesSection/>
             <OurPillars/>
             <Testimonialsection/>
+            <Footer/>
             
 
 

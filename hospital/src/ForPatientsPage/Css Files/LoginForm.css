@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
- 
+ /* border: 4px solid black; */
 }
 .loginSection{
-    height: auto;
+    height: fit-content;
     width: 100%;
     background-image: url("./loginbackground5.jpg");
   /* height: 80vh; */
@@ -21,8 +21,8 @@ z-index: 0;
 }
 
 .bgblack3{
-    width: inherit;
-    height: inherit;
+    width: 100%;
+    height: fit-content;
     background-color: rgba(0, 0, 0, .5);
     z-index: 1;
 }
@@ -34,11 +34,12 @@ z-index: 0;
     z-index: 2;
     min-height: 90vh;
    margin: 50px;
+   
     /* border: 2px solid red;  */
 }
 
 .formBox{
-    height: 450px;
+    height: auto;
     width: 600px;
     margin: 20px;
     backdrop-filter:blur(5px);
@@ -49,6 +50,7 @@ z-index: 0;
    justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
+   padding: 50px;
 
 }
 .smallsection{
@@ -160,6 +162,13 @@ textarea{
     color: white;
     font-weight: 500;
 padding: 10px 30px;
+}
+
+@media screen and (max-width:480px)
+{
+ .loginSection{
+    overflow: hidden;
+ }
 }
 
 

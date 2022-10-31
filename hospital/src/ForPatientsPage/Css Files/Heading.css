@@ -40,3 +40,23 @@ align-items: center;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, .8);
 }
  
+ @media screen and (max-width:480px)
+{
+.headingBox2{
+    height: 25vh;
+}
+.bigHeading2{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30x;
+    margin-right: 0px;
+    margin-left: 10px;
+    /* border: 2px solid beige; */
+    
+}
+.custom-shape-divider-bottom-1665995319 svg {
+   
+    height: 140px;
+}
+
+}

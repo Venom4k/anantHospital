@@ -1,9 +1,10 @@
-import {ContactusMain} from "./Contactuszip/Contactus/JSX/ContactusMain"
+import {ForPatient} from "./ForPatientsPage/JSX Files/ForPatient"
 function App(){
   return(
     <>
+    
+ <ForPatient/>
  
- <ContactusMain/>
      </>
   );
 

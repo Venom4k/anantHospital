@@ -1,5 +1,14 @@
 import "../Css Files/CashlessSection.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 function CashlessSection() {
+  useEffect(()=>{
+    AOS.init(
+       
+            
+    );
+   },[])
   
 
   return (
@@ -151,39 +160,37 @@ function CashlessSection() {
             </div>
 
             <div className="pbox">
-              <img className="imgresponsives" src={require("../Css Files/insurance1.jpg")} />
-              <h1 className="psubheading">BAJAJ ALLIANZ GENERAL INSURANCE</h1>
+              <img className="imgresponsives" src={require("../Css Files/CGHS.jpg")} />
+              <h1 className="psubheading">CGHS (CENTRAL GOVERNMENT HEALTH SCHEME)</h1>
             </div>
 
             <div className="pbox">
-              <img className="imgresponsives" src={require("../Css Files/insurance1.jpg")} />
-              <h1 className="psubheading">BAJAJ ALLIANZ GENERAL INSURANCE</h1>
+              <img className="imgresponsives" src={require("../Css Files/ECHS.jpg")} />
+              <h1 className="psubheading">CSMA (CENTRAL SERVICES MEDICAL ATTENDANCE)</h1>
             </div>
 
             <div className="pbox">
-              <img className="imgresponsives" src={require("../Css Files/insurance1.jpg")} />
-              <h1 className="psubheading">BAJAJ ALLIANZ GENERAL INSURANCE</h1>
+              <img className="imgresponsives" src={require("../Css Files/COAL.jpg")} />
+              <h1 className="psubheading">ECHS (EX SERVICEMEN CONTRIBUTORY HEALTH SCHEME)</h1>
             </div>
 
             <div className="pbox">
-              <img className="imgresponsives" src={require("../Css Files/insurance1.jpg")} />
-              <h1 className="psubheading">BAJAJ ALLIANZ GENERAL INSURANCE</h1>
+              <img className="imgresponsives" src={require("../Css Files/WCR.jpg")} />
+              <h1 className="psubheading">COAL INDIA MINING COMPANY</h1>
             </div>
 
             <div className="pbox">
-              <img className="imgresponsives" src={require("../Css Files/insurance1.jpg")} />
-              <h1 className="psubheading">BAJAJ ALLIANZ GENERAL INSURANCE</h1>
+              <img className="imgresponsives" src={require("../Css Files/MP POLICE.jpg")} />
+              <h1 className="psubheading">WCR (WEST CENTRAL RAILWAY)
+              </h1>
             </div>
 
             <div className="pbox">
-              <img className="imgresponsives" src={require("../Css Files/insurance1.jpg")} />
-              <h1 className="psubheading">BAJAJ ALLIANZ GENERAL INSURANCE</h1>
+              <img className="imgresponsives" src={require("../Css Files/STATE.jpg")} />
+              <h1 className="psubheading">MP POLICE ( MADHYA PRADESH )</h1>
             </div>
 
-            <div className="pbox">
-              <img className="imgresponsives" src={require("../Css Files/insurance1.jpg")} />
-              <h1 className="psubheading">BAJAJ ALLIANZ GENERAL INSURANCE</h1>
-            </div>
+           
 
           </div>
         </div>

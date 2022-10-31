@@ -191,8 +191,12 @@ width: fit-content;
 height: fit-content;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 padding: 8px 20px;
-border: 2px solid rgb(221, 221, 221);
+/* border: 2px solid rgb(221, 221, 221); */
 border-radius: 10px; 
+background-color: #ff568f;
+color: white;
+margin-top: 10px;
+margin-bottom: 30px;
 }
 .pheading{
     font-size: 1.3rem;
@@ -206,16 +210,19 @@ border-radius: 10px;
 }
  
 .pbox{
-    width: 220px;
-    height: 150px;
+    width: 300px;
+    height: fit-content;
     border: 3px solid rgb(165, 165, 165);
+    overflow: hidden;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
    justify-content: center;
    margin: 10px;
+    
    transition: 0.5s;
+ 
 }
 .pbox:hover{
     transform: translateY(-10px);
@@ -226,6 +233,35 @@ border-radius: 10px;
 .psubheading{
     text-align: center;
     font-weight: 500;
+  margin: 10px;
+  padding-bottom: 10px;
    
+}
+
+
+@media screen and (max-width:480px){
+    .forpatientheading{
+        
+        font-size: 1.7rem;
+        margin-top: 50px;
+      
+      }
+
+      .DividerBox{
+     
+        margin-top:70px;
+        
+    }
+    .InsuranceBox{
+        transform: scale(1.1);
+    }
+    .InsuranceBox:hover{
+        transform:scale(1.2);
+    }
+    .leftBox{
+        margin-bottom: 70px;
+    }
+
+
 }
  

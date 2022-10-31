@@ -1,26 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-
-}
- .processbox{
-    width: 100%;
-     height: 70vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   /* background-color: grey; */
- 
- /* .smallbox{
- height: 50vh;
-    width: 90vw;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
- }
-    /* background-color: red; */
-  
-
-    *{
+  *{
         margin: 0;
         padding: 0;
             box-sizing: border-box;
@@ -62,9 +40,9 @@
       width: 100%;
         margin-top: 20px;
     }
-    .containerr .carder{
+    .containerr .carder12{
         position: relative;
-        min-width: 350px;
+         width: 350px;
         height: 200px;
         box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
                     inset -5px -5px 5px rgba(255, 255, 255, 0.5),
@@ -73,7 +51,7 @@
                     border-radius: 15px;
                     margin: 20px;
     }
-    .containerr .carder .boxer{
+    .containerr .carder12 .boxer21{
         position: absolute;
         top: 20px;
         left: 20px;
@@ -89,7 +67,7 @@
         
     
     }
-    .containerr .carder:hover .boxer{
+    .containerr .carder12:hover .boxer21{
         transform: translateY(-50px);
         box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
         background: hsla(217, 100%, 50%, 1);
@@ -103,11 +81,11 @@
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
         color: white;
     }
-    .containerr .carder .boxer .contenter{
+    .containerr .carder12 .boxer21 .contenter21{
         padding: 7px;
         text-align: center;
     }
-    .containerr .carder .boxer .contenter h2{
+    .containerr .carder12 .boxer21 .contenter21 h2{
         position: absolute;
         top: -10px;
         right: 30px;
@@ -117,31 +95,32 @@
         pointer-events:none;
         font-family: 'Inter', sans-serif;
     }
-    .containerr .carder:hover .boxer .contenter h2{
+    .containerr .carder12:hover .boxer21 .contenter21 h2{
      color: rgba(0, 0, 0, 0.05);
     }
-    .containerr .carder .box .contenter h3{
+    .containerr .carder12 .box .contenter21 h3{
         font-size: 1.2em;
         color: #777;
         z-index: 1;
         transition: 0.5s;
-        margin-bottom: 100px;
+        
     }
-    .containerr .carder:hover .boxer .contenter h3{
+    .containerr .carder12:hover .boxer21 .contenter21 h3{
         color: #fff;
     }
-    .containerr .carder:hover .boxer .contenter p{
+    .containerr .carder12:hover .boxer21 .contenter21 p{
         color: white;
     }
-    .containerr .carder .boxer .contenter p{
+    .containerr .carder12 .boxer21 .contenter21 p{
         font-size: .9rem;
         font-weight: 500;
         color: #2c2c2c;
         z-index: 1;
         transition: 0.5s;
+        padding-top: 10px;
         font-family: 'Inter', sans-serif;
     }
-    .containerr .carder .boxer .contenter a{
+    .containerr .carder12 .boxer21 .contenter21 a{
         position: relative;
         display: inline-block;
         padding:8px 20px;
@@ -157,10 +136,19 @@
         
          
     } 
-    .containerr .carder:hover .boxer .contenter a{
+    .containerr .carder12:hover .boxer21 .contenter21 a{
     background: #ff568f;
     }
 
+    @media screen and (max-width:480px){
+      
+        .carder12{
+         transform: scale(.9);
+        }
+      
+
+
+    }
  
 
 
