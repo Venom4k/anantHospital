@@ -93,4 +93,13 @@ flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:480px){
+
+    .quicklinklist{
+        text-align: center;
+        padding-left: 0px;
+    }
+
+}
  

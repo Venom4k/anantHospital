@@ -1,13 +1,15 @@
 import React from "react";
-import Navbar from "../CSS/Navbar.css"
-import Getintouch from "../CSS/Getintouch.css"
-import Footer from "../CSS/Footer.css"
+import {Navigation} from "../../../Navigation";
+import {Getintouch} from "../JSX/Getintouch";
+import {Footer} from "../../../Footer"
 
 function ContactusMain(){
-    return <div>
-        <Navbar/>
+    return  (
+        <>
+        <Navigation/>
         <Getintouch/>
         <Footer/>
-        </div>
+        </>
+    )
 }
 export {ContactusMain};

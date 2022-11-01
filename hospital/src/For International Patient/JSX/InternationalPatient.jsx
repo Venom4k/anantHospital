@@ -1,9 +1,18 @@
 import "../CSS/InternationalPatient.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 function InternationalPatient() {
+
+
+  useEffect(()=>{
+    AOS.init();
+        },[])
+
   return (
     <>
     <div className="InternationalSection">
-   <div className="bigheading">
+   <div className="bigheading" data-aos="fade-up" data-aos-duration="800"  data-aos-offset="200">
    <div className="bigheadingbox">
    <h1 className="realbigheading">International Patients</h1>
    </div>

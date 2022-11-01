@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+     
+    /* border: 2px solid black; */
+}
+.bgimger{
+    width: 100%;
+    background-image: url("../CSS/background2.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    /* border: 8px solid black; */
+    z-index: 0;
+    
+}
+.btnsection{
+    /* border: 2px so?lid rgb(124, 124, 124); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.bgblack5{
+width: 100%;
+min-height: inherit;
+background-color: rgba(0, 0, 0,0.5);
+z-index: 1;
+
+}
+.getcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* border: 5px solid red; */
+    padding: 20px;
+    min-height: inherit;
+  
+    flex-wrap: nowrap;
+
+    z-index: 2;
+}
+.doc{
+    margin-top: 30px;
+}
+input[type=date]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+.departments{
+    color: #31BCC2;
+   background:transparent;
+}
+#input-group option{
+    color: #31BCC2;
+    background: transparent;
+}
+
+.btnerr{
+    border: 2px solid rgb(255, 255, 255);
+  padding: 4px 35px;
+     transition: 0.5s;
+     color: white;
+     border-radius: 10px;
+     background:transparent;
+     
+ }
+ 
+ .btnerr:hover{
+     color:white;
+     background:#09C6F9;
+     box-shadow: 0 0 10px #09C6F9,0 0 40px #09C6F9,0 0 80px #09C6F9;
+   
+ }
+ 
+ 
+/* section::before{
+    content: "" ;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(); */
+
+.containerappointment{
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    max-width: 1000px;
+
+    padding: 50px;
+    
+    /* background: rgba(255,255,255,0.1); */
+    box-shadow: 0 25px 45px rgba(0, 0, 0,0.1);
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+    background-color: transparent;
+}
+.containerappointment h2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+    
+}
+.containerappointment .row100{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.containerappointment .row100 .col{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 20px;
+}
+.containerappointment .row100 .col .inputBox{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: white;
+    
+
+}
+
+.containerappointment .row100 .col .inputBox input,
+.containerappointment .row100 .col .inputBox textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: 0 10px;
+    z-index: 1;
+    color: black;
+    /* border: 2px solid red; */
+}
+.containerappointment .row100 .col .inputBox .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 1px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+    /* border: 3px yellow solid; */
+    width:100%;
+}
+.containerappointment .row100 .col .inputBox input:focus + .text,
+.containerappointment .row100 .col .inputBox input:valid + .text,
+.containerappointment .row100 .col .inputBox textarea:focus + .text,
+.containerappointment .row100 .col .inputBox textarea:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+.containerappointment .row100 .col .inputBox .line{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+     height: 2px;
+     background: white;
+     transition: 0.5s;
+     border-radius: 2px;
+     pointer-events: none;
+}
+.containerappointment .row100 .col .inputBox input:focus ~ .line,
+.containerappointment .row100 .col .inputBox input:valid ~ .line{
+    height: 100%;
+
+}
+.containerappointment .row100 .col .inputBox .textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+.containerappointment .row100 .col .inputBox textarea:focus ~ .line,
+.containerappointment .row100 .col .inputBox textarea:valid ~ .line{
+    height: 100%;
+
+}
+.containerappointment .row100 .col  input[type="submit"]{
+    border: none;
+    padding: 10px 40px ;
+    cursor: pointer;
+    outline: none;
+    background: white;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 2px;
+   display: flex;
+   display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+#input-group{
+    width: 100%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+    border-color: green;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:480px)
+{
+    .containerappointment h2{
+    font-size: 30px;
+}
+
+.upload{
+
+    margin-left: -8px;
+
+}
+
+
+    }

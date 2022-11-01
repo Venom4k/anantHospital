@@ -18,7 +18,7 @@ return(
     <> 
     <div className="containes">
     <div className="bigHeadingBox" data-aos="fade-up" data-aos-duration="900" >
-    <h1 className="bigHeading"> Our Responsibilities</h1>
+    <h1 className="bigHeading">Our Responsibilities</h1>
     </div>
   <div className="skewed skewed-left" data-aos="flip-left" data-aos-duration="900" data-aos-offset="200">
   <div className="image">

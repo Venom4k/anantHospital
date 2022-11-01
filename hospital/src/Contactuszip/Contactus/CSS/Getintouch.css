@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 4px solid black; */
+    
 }
 .contact{
     position: relative;
@@ -11,14 +13,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("../JSX/Images/ananthospitalphoto.png");
     background-size: cover;
-    width:100%;
+background-color: rgb(141, 141, 141);    width:100%;
    border: 2px solid black; 
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
-
+  
 }
 .contact .content{
     max-width: 800px;
@@ -36,6 +37,10 @@
     color: black;
 
 }
+
+.contactusSubheading{
+    font-size: 19px;
+}
 .containerr{
     width: 100%;
     display: flex;
@@ -47,6 +52,8 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, .5);
+ 
 
 }
 .containerr .contactInfo .box1{
@@ -55,14 +62,18 @@
     display: flex;
 }
 .containerr .contactInfo .box1 .icon{
-    min-width: 60px;
-    height: 60px;
+    width: 4%;
+    height: fit-content;
     background: #00000088;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
+}
+.logoresponsive{
+    width: 100%;
+    height: auto;
 }
 .containerr .contactInfo .box1 .text{
     display: flex;
@@ -75,6 +86,7 @@
 .containerr .contactInfo .box1 .text h3{
     font-weight: 500;
     color: #00bcd4;
+    font-size: 1.5rem;
 }
 .contactForm{
     width: 40%;

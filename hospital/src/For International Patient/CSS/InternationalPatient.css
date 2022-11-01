@@ -3,8 +3,9 @@
     padding: 0;
 }
 .InternationalSection{
-/* border: 2px solid black; */
-}
+ margin-top: 40px;
+ }
+ 
 .bigheading{
     width: 100%;
     height: fit-content;
